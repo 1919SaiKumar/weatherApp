@@ -1,4 +1,4 @@
-let KEY = "31b4737fe4934d36963101226251303";
+let KEY = "your key";
 
 
 async function getData() {
