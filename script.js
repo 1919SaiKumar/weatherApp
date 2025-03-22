@@ -9,7 +9,7 @@ let city = document.getElementById("cityNameId").value;
     return;
   }
 
-  let API = `http://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${city}&days=7`;
+  let API = `https://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${city}&days=7`;
   
   let res = await axios.get(API);
   
